@@ -14,7 +14,6 @@ void Store::processOrder(const Order& order) {
 		int index = it - myInventory.begin();
 		myInventory[index].myItemStock -= count[i];
 	}
-	
 }
 
 std::ostream& operator<<(std::ostream& os, const Store& inventory) {
