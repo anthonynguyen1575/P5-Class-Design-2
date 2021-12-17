@@ -21,17 +21,17 @@ public:
 
 };
 
-std::string getFileName(const Metadata metadata);
-std::string getImageType(const Metadata metadata);
-std::string getDate(const Metadata metadata);
-double getSize(const Metadata metadata);
-std::string getAuthor(const Metadata metadata);
-int getWidth(const Metadata metadata);
-int getHeight(const Metadata metadata);
-std::string getApertureSize(const Metadata metadata);
-std::string getExposureTime(const Metadata metadata);
-int getISO(const Metadata metadata);
-bool getFlash(const Metadata metadata);
+std::string getFileName(const Metadata& metadata);
+std::string getImageType(const Metadata& metadata);
+std::string getDate(const Metadata& metadata);
+double getSize(const Metadata& metadata);
+std::string getAuthor(const Metadata& metadata);
+int getWidth(const Metadata& metadata);
+int getHeight(const Metadata& metadata);
+std::string getApertureSize(const Metadata& metadata);
+std::string getExposureTime(const Metadata& metadata);
+int getISO(const Metadata& metadata);
+bool getFlash(const Metadata& metadata);
 
 void setFileName(Metadata& metadata, std::string fileName);
 void setImageType(Metadata& metadata, std::string imageType);
