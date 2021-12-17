@@ -13,19 +13,19 @@ URL::URL(std::string url)
     myPath = myURL.substr(forwardSlashPlacement);
 }
 
-std::string getURL(const URL url) {
+std::string getURL(const URL& url) {
     return url.myURL;
 }
 
-std::string getScheme(const URL url) {
+std::string getScheme(const URL& url) {
     return url.myScheme;
 }
 
-std::string getAuthority(const URL url) {
+std::string getAuthority(const URL& url) {
     return url.myAuthority;
 }
 
-std::string getPath(const URL url) {
+std::string getPath(const URL& url) {
     return url.myPath;
 }
 
