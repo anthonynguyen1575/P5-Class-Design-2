@@ -8,47 +8,47 @@ Metadata::Metadata(std::string fileName, std::string imageType, std::string date
 	myAuthor{ author }, myWidth{ width }, myHeight{ height }, myApertureSize{ apertureSize },
 	myExposureTime{ exposureTime }, myISO{ iso }, myFlash{ flash } { }
 
-std::string getFileName(const Metadata metadata) {
+std::string getFileName(const Metadata& metadata) {
 	return metadata.myFileName;
 }
 
-std::string getImageType(const Metadata metadata) {
+std::string getImageType(const Metadata& metadata) {
 	return metadata.myImageType;
 }
 
-std::string getDate(const Metadata metadata) {
+std::string getDate(const Metadata& metadata) {
 	return metadata.myDate;
 }
 
-double getSize(const Metadata metadata) {
+double getSize(const Metadata& metadata) {
 	return metadata.mySize;
 }
 
-std::string getAuthor(const Metadata metadata) {
+std::string getAuthor(const Metadata& metadata) {
 	return metadata.myAuthor;
 }
 
-int getWidth(const Metadata metadata) {
+int getWidth(const Metadata& metadata) {
 	return metadata.myWidth;
 }
 
-int getHeight(const Metadata metadata) {
+int getHeight(const Metadata& metadata) {
 	return metadata.myHeight;
 }
 
-std::string getApertureSize(const Metadata metadata) {
+std::string getApertureSize(const Metadata& metadata) {
 	return metadata.myApertureSize;
 }
 
-std::string getExposureTime(const Metadata metadata) {
+std::string getExposureTime(const Metadata& metadata) {
 	return metadata.myExposureTime;
 }
 
-int getISO(const Metadata metadata) {
+int getISO(const Metadata& metadata) {
 	return metadata.myISO;
 }
 
-bool getFlash(const Metadata metadata) {
+bool getFlash(const Metadata& metadata) {
 	return metadata.myFlash;
 }
 
